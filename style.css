@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: #ffffff;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #e5e4e4;
+}
+#title,
+p,
+h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#img-div {
+  background: white;
+  padding: 10px;
+  width: 750px;
+  margin: 0;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  object-fit: scale-down;
+  /*width: 100%;
+    height: 100%;
+    z-index: -1;*/
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+}
+#tribute-link {
+}
+div {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+blockquote {
+  text-align: center;
+  font-family: "Cinzel", serif;
+}
+footer {
+}
